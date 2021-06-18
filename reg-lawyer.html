@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <head><title>Register !</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="./signupstyle.css">
+         </head>
+
+        <body>
+
+                <div class="box">
+                    <img src="./user.png"
+                    width="120px"height="100px" class="user">
+
+                        <h1>Register Here</h1>
+
+                        <form name="myform3" action = "reglawyer.php" method="POST">
+
+                            <p>Name</p>
+                            <input type="text" name="username" placeholder="Enter Username" required="">
+
+                            <p>Mobile Number</p>
+                            <input type="text" name="monumber" placeholder="Enter Mobile Number" required="">
+
+                            <p>Bar council Id</p>
+                            <input type="text" name="barcouncil" placeholder="Enter Bar Council Id" required="">
+                             <p>Court</p><br>
+                            <label for="cars">Choose you court:</label>
+
+                                        <select name="courts" id="courts">
+                                          <option value="supreme court">supreme court</option>
+                                          <option value="high court">high court</option>
+                                          <option value="regional court">regional court</option>
+                                          
+                                        </select><br>
+                            <p>No.cases handled before:</p>
+                            <input type="text" name="cases" placeholder="Enter Number of cases" required="">
+                            <p>No.of wins:</p>
+                            <input type="text" name="wins" placeholder="Enter Number of wins" required="">
+
+                             <p>Experience</p><br>
+
+                            <label for="exp">Experience in years:</label>
+
+                                        <select name="exp" id="exp">
+                                          <option value="0">0</option>
+                                          <option value="1-2">1-2</option>
+                                          <option value="3-4">3-4</option>
+                                          <option value="5-9">5-9</option>
+                                           <option value="10-more">10-more</option>
+                                          
+                                          
+                                        </select>
+                                        <br>
+
+                            <p>Email</p>
+                            <input type="Email" name="email" placeholder="Enter email id" required="">
+
+                            <p>Password</p>
+                            <input type="password" name="password1" placeholder="Enter Password" required="">
+
+                            <p>Retype Password</p>
+                            <input type="password" name="password2" placeholder="Re-Enter Password" required="">
+                             <p>Your profile info:</p>
+                            <label for="det">ENTER HERE:</label>
+                                <textarea id="det" name="det" rows="4" cols="30">
+                                  enter if any other detailes you wish to appear to client
+                                  </textarea><br>
+
+                            <input type="submit" name="" value="SIGN UP">
+
+                            <br><br>
+                            <a href="sign-in.html">Existing User? Login!</a>
+                        </form>
+                        
+                    </div>
+
+        </body>
+    
+</html>

@@ -1,0 +1,95 @@
+.lemon{
+    background-color:grey; 
+}
+body {
+    background-color: #ff416c !important;
+}
+
+.mass{
+    color:white; 
+
+
+}
+
+
+.padding {
+    padding: 3rem !important
+}
+
+.user-card-full {
+    overflow: hidden
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(11, 11, 11, 0.93); !important;
+    box-shadow: 0 1px 20px 0 rgb(255, 255, 255);
+    border: none;
+    margin-bottom: 30px
+}
+
+.m-r-0 {
+    margin-right: 0px
+}
+
+.m-l-0 {
+    margin-left: 0px
+}
+
+.user-card-full .user-profile {
+    border-radius: 5px 0 0 5px
+}
+
+.bg-c-lite-green {
+    background: -webkit-gradient(linear, left top, right top, from(#f29263) ,to(#ee5a6f));
+    background: linear-gradient(to right,   #090505, #080808) !important;
+}
+
+.user-profile {
+    padding: 20px 0
+}
+
+.card-block {
+    padding: 1.25rem
+}
+
+.m-b-25 {
+    margin-bottom: 25px
+}
+
+.img-radius {
+    border-radius: 5px
+}
+
+h6 {
+    font-size: 14px
+}
+
+.card .card-block p {
+    line-height: 25px
+}
+
+@media only screen and (min-width: 1400px) {
+    p {
+        font-size: 14px
+    }
+}
+
+.card-block {
+    padding: 1.25rem
+}
+.button1 {
+      background: $black;
+  border-color: $white;
+  color: #fff;
+  background: {
+    image: linear-gradient(45deg,$black 50%, transparent 50%);
+    position: 100%;
+    size: 400%;
+  }
+  transition: background 300ms ease-in-out;
+  
+  .button1 :hover a {
+    background-position: white;
+  }
+}
